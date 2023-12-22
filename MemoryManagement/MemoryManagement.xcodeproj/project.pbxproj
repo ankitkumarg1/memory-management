@@ -13,6 +13,8 @@
 		BC7312A12B3622C8008B69DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC73129F2B3622C8008B69DD /* Main.storyboard */; };
 		BC7312A32B3622C9008B69DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7312A22B3622C9008B69DD /* Assets.xcassets */; };
 		BC7312A62B3622C9008B69DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7312A42B3622C9008B69DD /* LaunchScreen.storyboard */; };
+		BC7312AE2B36239A008B69DD /* Parent+Child+Leak.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7312AD2B36239A008B69DD /* Parent+Child+Leak.swift */; };
+		BC7312B02B362576008B69DD /* Parent+Child+Idle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7312AF2B362576008B69DD /* Parent+Child+Idle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BC7312A22B3622C9008B69DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC7312A52B3622C9008B69DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC7312A72B3622C9008B69DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7312AD2B36239A008B69DD /* Parent+Child+Leak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parent+Child+Leak.swift"; sourceTree = "<group>"; };
+		BC7312AF2B362576008B69DD /* Parent+Child+Idle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parent+Child+Idle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BC7312A22B3622C9008B69DD /* Assets.xcassets */,
 				BC7312A42B3622C9008B69DD /* LaunchScreen.storyboard */,
 				BC7312A72B3622C9008B69DD /* Info.plist */,
+				BC7312AD2B36239A008B69DD /* Parent+Child+Leak.swift */,
+				BC7312AF2B362576008B69DD /* Parent+Child+Idle.swift */,
 			);
 			path = MemoryManagement;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC73129E2B3622C8008B69DD /* ViewController.swift in Sources */,
+				BC7312B02B362576008B69DD /* Parent+Child+Idle.swift in Sources */,
 				BC73129A2B3622C8008B69DD /* AppDelegate.swift in Sources */,
+				BC7312AE2B36239A008B69DD /* Parent+Child+Leak.swift in Sources */,
 				BC73129C2B3622C8008B69DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
